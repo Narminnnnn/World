@@ -1,0 +1,138 @@
+header {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
+
+.navbar {
+    border-bottom: 2px solid #fff !important;
+    background-color: transparent !important;
+    padding-top: 20px !important;
+}
+
+#navbarNavDropdown {
+    display: flex;
+    justify-content: end;
+}
+
+ul li a {
+    padding: 0.5em 1em;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+    color: #8d8d8d !important;
+    font-size: 14px !important;
+}
+
+ul li a:hover {
+    color: #fff !important;
+}
+
+ul {
+    gap: 15px;
+}
+
+.iconn i {
+    color: #8d8d8d;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.home {
+    color: #fff !important;
+}
+
+.secOne {
+    width: 100%;
+    height: 40rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("https://preview.colorlib.com/theme/world/img/blog-img/bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    width: 70%;
+}
+
+.number p {
+    width: 100px;
+    height: 55px;
+    border: 5px solid;
+    color: #8d8d8d;
+    border-color: #8d8d8d;
+    margin-right: 25px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 24px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+}
+
+.number span {
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #8d8d8d;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.secSecond{
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    width: 760px;
+
+}
+.left-top{
+    display: flex;
+    padding: 30px;
+    margin: 30px;
+    align-items: center;
+}
+.left-top span{
+    font-size: 18px;
+    color: #000000;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+   }
+.left-nav .nav-left {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    
+}
+.left-nav .nav-link{
+    text-decoration: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Ubuntu", sans-serif;
+    color: #8d8d8d !important;
+    padding: 0;
+}
+.nav-link:hover{
+    color: black !important;
+}
+.nav-item .all{
+    color: black !important;
+}
+
+.text h4{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-weight: 500;
+    line-height: 1.3;
+}
+.text span{
+    font-size: 12px;
+}
